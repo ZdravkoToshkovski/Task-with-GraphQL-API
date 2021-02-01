@@ -1,0 +1,22 @@
+{
+  allFilms(first: 1) {
+    films {
+      title
+      speciesConnection {
+        totalCount
+        
+        species {
+          id
+          name
+          personConnection {
+            people {   
+              id
+              gender
+              name
+            }
+          }
+        }
+      }
+    }
+  }
+}

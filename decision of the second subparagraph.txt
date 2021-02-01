@@ -1,0 +1,18 @@
+ query {
+  species(id:"c3BlY2llczoy") {
+    id
+    name
+    personConnection{
+      people{
+        eyeColor
+        birthYear
+        name
+        id
+        homeworld {
+          id
+        }
+      }
+    }
+    
+  }
+}

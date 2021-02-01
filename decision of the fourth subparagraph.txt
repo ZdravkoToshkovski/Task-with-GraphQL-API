@@ -1,0 +1,16 @@
+query {
+ person(id:"cGVvcGxlOjc0")
+  {
+    name
+    birthYear
+    homeworld {
+      name
+    }
+    eyeColor
+    starshipConnection{
+      starships{
+        name
+      }
+    }
+  }
+}
